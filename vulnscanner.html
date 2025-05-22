@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+  <!-- Basic -->
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <!-- Mobile Metas -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <!-- Site Metas -->
+  <link rel="icon" href="https://img.freepik.com/free-vector/cyber-security-concept-with-panicking-man-looking-notification-about-banned-account-laptop-isometric_1284-63721.jpg?t=st=1746621688~exp=1746625288~hmac=c6a4c5100b6def65e2b8700b61ab0f691cd3d66fb9c413768038467b57b7d888&w=826" type="image/gif" />
+  <meta name="keywords" content="" />
+  <meta name="description" content="" />
+  <meta name="author" content="" />
+
+
+
+  <!-- bootstrap core css -->
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+
+  <!-- fonts style -->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+
+  <!-- font awesome style -->
+  <link href="css/font-awesome.min.css" rel="stylesheet" />
+
+  <!-- Custom styles for this template -->
+  <link href="css/style.css" rel="stylesheet" />
+  <!-- responsive style -->
+  <link href="css/responsive.css" rel="stylesheet" />
+
+</head>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>HACKERVAN Nav</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    nav {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 10px 30px;
+      background-color: white;
+      border-bottom: 2px solid #8A2BE2;
+    }
+
+    .logo {
+      font-size: 24px;
+      font-weight: bold;
+    }
+
+    .nav-links {
+      display: flex;
+      gap: 30px;
+      align-items: center;
+    }
+
+    .nav-links a {
+      text-decoration: none;
+      color: black;
+      font-weight: 500;
+      padding: 10px 15px;
+      border-radius: 5px;
+      transition: background-color 0.3s ease;
+    }
+
+    .nav-links a.active {
+      background-color: #8A2BE2;
+      color: white;
+    }
+
+    .icons {
+      display: flex;
+      gap: 15px;
+      align-items: center;
+    }
+
+    .icons i {
+      color: #8A2BE2;
+      font-size: 18px;
+      cursor: pointer;
+    }
+  </style>
+  <script>
+    function form_submit() {
+      alert("Congrats you have completed Vulnerability Scanning Test!")
+      
+    }
+  </script>
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <br>
+  <nav>
+    <div class="logo">HACKERVAN</div>
+    <div class="nav-links">
+      <a href="#" class="active">HOME</a>
+      <a href="#">ABOUT</a>
+      <a href="#">APPS</a>
+      <a href="#">LABS</a>
+      <a href="#">COURSES</a>
+      <a href="#">TESTIMONIAL</a>
+      <a href="#">DONATE US</a>
+      <a href="#">CONTACT US</a>
+    </div>
+    <div class="icons">
+      <i class="fas fa-user"></i>
+      <i class="fas fa-shopping-cart"></i>
+    </div>
+  </nav>
+    <section class="contact_section layout_padding">
+    <div class="container">
+      <div class="heading_container">
+        <h2>
+          Vulnerability Scanning
+        </h2>
+      </div>
+      <div class="row">
+        <div class="col-md-6">
+          <div class="form_container">
+            <form action="">
+              <h3>Perform a vulnerability scan on any of the targets</h3><br>
+              <div>
+                <label>Target 1</label>
+                <input type="text" value="scanme.nmap.org" />
+              </div>
+              <div>
+                <label>Target 2</label>
+                <input type="text" value="142.251.222.174" />
+              </div>
+              <div>
+                <label>Target 3</label>
+                <input type="text" value="18.67.161.92" />
+              </div>
+              <div>
+                <input type="text" class="message-box" placeholder="Port numbers" />
+              </div>
+              <div class="btn_box">
+                <a href="labs.html">
+                <button onclick="form_submit()">
+                  SEND
+                </button>
+                </a>
+              </div>
+            </form>
+          </div>
+        </div>
+        <div class="col-md-6 ">
+          <div class="map_container">
+            <div class="map">
+              <div id="googleMap">
+                <img src="https://img.freepik.com/free-vector/hacker-activity-concept_23-2148533309.jpg?ga=GA1.1.1515056145.1746543221&semt=ais_hybrid&w=740" width="100%">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</body>
+</html>
